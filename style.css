@@ -1,0 +1,169 @@
+*{
+    padding: 0px;
+    margin: 0px;
+    box-sizing: border-box;
+}
+main{
+    background-color: rgb(248, 82, 82);
+    height: 220vh;
+    padding-top: 30px;
+    
+}
+.container{
+    width: 90%;
+    height: auto;
+    background-color: white;
+    margin: auto;
+    display: block;
+}
+.top_container{
+    background-image: url(webdesign-banner.png);
+    opacity: 0.6;
+    background-size: cover;
+    object-fit: cover;
+    height: 400px;
+    width: 100%;
+}
+.top_sub1 h1{
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    color: red;
+    font-size: 50px;
+    margin-top: 180px;
+    margin-left: 10px;
+}
+/* css for the icons on the top */
+.icns{
+    color: white;
+    font-size: 20px;
+    margin-top: 10px;
+}
+.top_container{
+    display: flex;
+    justify-content: space-between;
+}
+.top_sub2 ul{
+    list-style: none;
+    display: flex;
+    margin-right: 10px;
+}
+.top_sub2 ul li{
+    padding: 10px;
+}
+.top_sub2 ul li a:hover{
+    zoom: 150%;
+}
+/* section 1 */
+.image1 img{
+    margin-left: 10px;
+    margin-top: 30px;
+    width: 250px;
+    height: 250px;
+    border-radius: 50%;
+}
+.content{
+    padding-top: 30px;
+    width: 130%;
+    margin-left: -300px;
+}
+.content p, h2, h3{
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-size: 14px;
+}
+.content button{
+    width: 300px;
+    border: 1px solid tomato;
+    background-color: tomato;
+    color: white;
+    height: 40px;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-size: 20px;
+    margin-top: 30px;
+    border-radius: 2px;
+}
+.content button:hover{
+    background-color: red;
+    cursor: progress;
+}
+.section1{
+    display: grid;
+    grid-template-columns: repeat(auto-fit,minmax(300px,1fr));
+}
+#icons{
+    margin-left: 35px;
+}
+.top_sub2 p{
+    padding-top: 20px;
+    margin-left: 40px;
+    font-size: 25px;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+.text p{
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-size: 25px;
+    margin-bottom: -30px;
+    margin-left: 40px;
+}
+/* section holding icons and story */
+.iconsx{
+    font-size: 40px;
+    margin-right: 20px;
+}
+.sction0_1 ul li{
+    display: flex;
+}
+.sction0_1 ul{
+    padding: 30px 30px 0px 30px;
+}
+.sction0_2 ul li{
+    padding-top: 50px;
+    display: flex;
+}
+.sction0_2 ul{
+    padding: 0px 30px 0px 30px;
+}
+.sction0{
+    margin-top: 30px;
+    margin-bottom: 50px;
+    background-color: whitesmoke;
+    height: 300px;
+}
+.sction0_1 ul{
+    list-style: none;
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+}
+
+.sction0_2 ul{
+    list-style: none;
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+}
+/* section 2 */
+.section2{
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+    background-color: whitesmoke;
+    height: auto;
+    width: 100%;
+    margin-top: 30px;
+}
+.section2 ul{
+    list-style: none;
+    width: 100%;
+    margin: auto;
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+}
+.section2 ul li img{
+    width: 300px;
+}
+.ed img{
+    height: 200px;
+}
+.copyright p{
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    color: white;
+    opacity: 0.6;
+    text-align: center;
+    padding-top: 20px;
+}
